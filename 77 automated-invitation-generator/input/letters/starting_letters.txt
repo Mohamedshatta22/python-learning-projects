@@ -1,0 +1,9 @@
+dear {name},
+
+you are invited to the [octucode student event]
+join us to learn share and have fun with your friends.
+
+we cant wait to see you there!
+
+best regards,
+{signature}
