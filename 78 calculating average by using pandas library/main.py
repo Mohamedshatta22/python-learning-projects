@@ -7,3 +7,6 @@ print(sum_list/len_list)
 #################################################
 #sec way
 print(sum(content["burned_calaroies"].to_list())/len(content["burned_calaroies"].to_list()))
+##########################################
+#third way
+print(content["burned_calaroies"].mean())
