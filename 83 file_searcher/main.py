@@ -11,4 +11,8 @@ def searching_for_file(file_name):
     return "Unfortunately the file does not exist"
 qu = input("please enter your file name ended with(.txt): ")
 print("sorry this takes some time thank you for your patience")
+file_path = searching_for_file(qu)
 print(searching_for_file(qu))
+
+os.startfile(file_path)
+
