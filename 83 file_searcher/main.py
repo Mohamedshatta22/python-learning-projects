@@ -14,5 +14,5 @@ print("sorry this takes some time thank you for your patience")
 file_path = searching_for_file(qu)
 print(searching_for_file(qu))
 
-os.startfile(file_path)
-
+if os.path.exists(file_path):
+    os.startfile(file_path)
